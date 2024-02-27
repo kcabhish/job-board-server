@@ -4,8 +4,15 @@ type Query {
     jobs: [Job!]
 }
 
+"""
+Schema for the __Job__ Object.
+This is a sample documentation.
+Bold can be used by double underscore  <text> double underscore without space. eg __This is bold__
+"""
 type Job {
     id: ID!
+    """__Date__ in ISO-8601 format, resolved from `createdAt` from the object"""
+    date: String!
     title: String
     description: String
 }
