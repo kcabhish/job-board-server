@@ -7,6 +7,7 @@ A small demo app created to to dust off on the graphql knowledge.
 - graphql
 - apollo server
 - Knex.js
+- Express js
 
 ## Recommended VS code Extensions
 

@@ -36,7 +36,6 @@ export const resolvers = {
         date: (job) => {
             return toIsoDate(job.createdAt);
         },
-        description: (job) => 'this can overwrite the description from the root'
     }
 };
 
